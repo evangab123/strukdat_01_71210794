@@ -1,0 +1,24 @@
+print("Pilih Menu ")
+print("1.Tambah")
+print("2.Kurang")
+print("3.Bagi")
+print("4.Kali")
+print('')
+
+n = int(input("Masukan Bilangan Pertama : "))
+o = int(input("Masukan Bilangan Kedua : "))
+x = int(input("Pilih Menu : "))
+hasil = 0
+
+if  x == 1:
+    hasil = n + o
+    print(hasil)
+elif  x == 2:
+    hasil = n - o
+    print(hasil)
+elif  x == 3:
+    hasil = n / o
+    print(hasil)
+elif  x == 4:
+    hasil = n * o
+    print(hasil)
